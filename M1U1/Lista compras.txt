@@ -4,5 +4,3 @@ Pan
 
 bananas
 manzanas
-palta
-naranjas
