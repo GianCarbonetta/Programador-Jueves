@@ -1,0 +1,94 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOMBRE Y APELLIDO: JOSE HERNANDEZ</title>
+  <style>
+    .static-position {
+      position: static;
+      border: 2px solid red;
+      padding: 10px;
+    }
+
+    .absolute-position {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      border: 2px solid blue;
+      padding: 10px;
+    }
+
+    .fixed-position {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      border: 2px solid green;
+      padding: 10px;
+    }
+
+    .relative-position {
+      position: relative;
+      border: 2px solid orange;
+      padding: 10px;
+    }
+
+    .relative-absolute {
+      position: relative;
+      border: 2px solid purple;
+      padding: 10px;
+    }
+
+    .inside-absolute {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      border: 2px solid pink;
+      padding: 5px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header class="section static-position">
+  <h1>Jose Hernandez</h1>
+</header>
+
+<section class="section absolute-position">
+  <h2>Información Personal</h2>
+  <p><strong>Edad:</strong> 24 años</p>
+  <p><strong>Domicilio: Av Libertador 333</strong> ,Ciudad: Buenos Aires (CABA), País: Argentina</p>
+</section>
+
+<section class="section fixed-position">
+  <h2>Hobbies</h2>
+  <p>Cocinar, leer, viajar.</p>
+</section>
+
+<section class="section relative-position">
+  <h2>Tiempo Libre</h2>
+  <p>Disfruto de cocinar nuevas recetas, leer novelas de ficción y explorar nuevos lugares cuando viajo.</p>
+</section>
+
+<section class="section relative-absolute">
+  <h2>Perfil</h2>
+  <p>Soy una persona creativa y apasionada por aprender cosas nuevas. Me encanta enfrentar desafíos y encontrar soluciones innovadoras. Tengo habilidades en programación y diseño web, así como también en gestión de proyectos.</p>
+  <div class="inside-absolute">Absoluto dentro de relativo</div>
+</section>
+
+</body>
+</html>
